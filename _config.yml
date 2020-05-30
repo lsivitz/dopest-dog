@@ -28,9 +28,12 @@ twitter_username: dopestdog
 
 # Build settings
 #theme: jekyll-theme-hydeout 
-remote-theme: fongandrew/hydeout
+
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+
+remote_theme: fongandrew/hydeout
 
 paginate: 1
 
