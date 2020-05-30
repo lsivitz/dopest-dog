@@ -21,7 +21,7 @@
 title: Dopest Dog
 email: vote@dopestdog.com
 description: >- # this means to ignore newlines until "baseurl:"
-    Dopest Dog is on the prowl to find the Dopest Dogs in the world. Join us! 
+    On the hunt for the people's pup.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dopestdog
