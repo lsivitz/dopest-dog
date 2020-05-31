@@ -9,6 +9,11 @@
 
     <main class="container">
       {{ content }}
+      
+          {% assign post = site.posts.first %}
+
+          <h1> {{ post.title }} </h1>
+          {{ post.content }}
     </main>
 
     {% include custom-foot.html %}
