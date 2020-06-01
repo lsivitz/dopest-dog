@@ -8,12 +8,12 @@
     {% include sidebar.html %}
 
     <main class="container">
-      {{ content }}
-      
-          {% assign post = site.posts.first %}
+        {{ content }}
 
-          <h1> {{ post.title }} </h1>
-          {{ post.content }}
+        {% assign post = site.posts.first %} 
+        <h2> {{ post.title }} </h2>
+        {{ post.content }}
+
     </main>
 
     {% include custom-foot.html %}
